@@ -7,7 +7,6 @@ export interface SubscriptionLike {
 
 export class SubSink {
   private _subs: SubscriptionLike[] = [];
-  constructor() { }
 
   public add(...subscriptions: SubscriptionLike[]): void {
     this._subs = this._subs.concat(subscriptions);
