@@ -26,7 +26,7 @@ export class SubSink {
  * "takeUntil"
  *
  * import { Subject } from 'rxjs’;
-  import { takeUntil } from 'rxjs/operators'
+ * import { takeUntil } from 'rxjs/operators'
  * private readonly onDestroy$: Subject<void> = new Subject<void>()
  *
  * "takeUntil" after operators
